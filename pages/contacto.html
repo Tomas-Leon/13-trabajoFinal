@@ -7,9 +7,9 @@
     <meta name="keywords" content="componentes pc" />
     <meta name="author" content="Grupo D" />
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <a class="navbar-brand fs-2 text-primary" href="../index.html"
             ><i class="bi bi-gpu-card fs-1"></i> GPU-Store</a
@@ -55,12 +55,18 @@
               </form>
 
               <li class="nav-item">
-                <a class="nav-link me-3" aria-current="page" href="./nosotros.html"
+                <a
+                  class="nav-link me-3"
+                  aria-current="page"
+                  href="./nosotros.html"
                   >Nosotros</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active me-3" aria-current="page" href="./contacto.html"
+                <a
+                  class="nav-link active me-3"
+                  aria-current="page"
+                  href="./contacto.html"
                   >Contacto</a
                 >
               </li>
@@ -83,7 +89,116 @@
 
     <main>
 
-      
+      <div class="imgContacto">
+        <img
+          class="w-100 imgContacto"
+          src="https://www.asrock.com/images/index_intel14th.jpg"
+          alt="componentes asrock"
+        />
+      </div>
+      <h1 class="text-center my-5">Contacto</h1>
+
+      <section class="container my-5">
+        <article class="row">
+          <div class="col-12 col-lg-5 col-md-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1060679494694!2d-65.20974192488997!3d-26.836578490026433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1723710635657!5m2!1ses-419!2sar"
+              class="py-3"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+
+          <div class="col-12 col-lg-7 col-md-7">
+            <form class="py-4 px-4">
+              <div class="mb-3">
+                <label for="nombre y apellido" class="form-label"
+                  >Nombre y apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre y apellido"
+                  aria-describedby="emailHelp"
+                  placeholder="Ej: Juan Perez"
+                  required
+                  minlength="5"
+                  maxlength="100"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="provincia" class="form-label">Provincia</label>
+                <select
+                  class="form-select"
+                  aria-label="Default select example"
+                  required
+                  id="provincia"
+                >
+                  <option selected>Seleccione su provinvia</option>
+                  <option value="Tucumán">Tucumán</option>
+                  <option value="Buenos Aires">Buenos Aires</option>
+                  <option value="Córdoba">Córdoba</option>
+                  <option value="Jujuy">Santa Fe</option>
+                  <option value="Salta">Salta</option>
+                  <option value="Santiago del Estero">
+                    Santiago del Estero
+                  </option>
+                  <option value="Catamarca">Catamarca</option>
+                  <option value="Jujuy">Jujuy</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="correo electronico" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="correo electronico"
+                  required
+                  minlength="5"
+                  maxlength="320"
+                  placeholder="Ej: usuario@mail.com"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="telefono"
+                  minlength="5"
+                  maxlength="25"
+                  placeholder="Ej: (+54)381*******"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="area de consulta" class="form-label"
+                  >Consulta</label
+                >
+                <textarea
+                  class="form-control"
+                  id="area de consulta"
+                  rows="4"
+                  minlength="5"
+                  maxlength="250"
+                  required
+                  placeholder="Ingrese su consulta"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger">Enviar</button>
+            </form>
+          </div>
+        </article>
+      </section>
+
     </main>
 
     <footer>
@@ -91,7 +206,7 @@
         <div class="row">
           <div class="col-sm-4 text-center">
             <div class="fs-1 text-primary mb-2">
-              <i class="bi bi-gpu-card"></i> GPU-Store</a>
+              <a><i class="bi bi-gpu-card"></i> GPU-Store</a>
             </div>
           </div>
           <div class="col-sm-4 text-center">
