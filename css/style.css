@@ -1,3 +1,7 @@
 nav{
     height: 100px;
 }
+
+main {
+    height: 100VH;
+}
