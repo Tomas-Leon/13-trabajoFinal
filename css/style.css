@@ -31,3 +31,13 @@ textarea{
 .filterImgSlider{
     filter: grayscale(0.4);
 }
+
+.team .card-body i{
+    font-size: 20px;
+}
+.portafolio .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
