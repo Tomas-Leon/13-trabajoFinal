@@ -18,3 +18,7 @@ textarea{
     height: 125px;
     object-fit: cover;
 }
+
+.a-color {
+    color: white;
+}
