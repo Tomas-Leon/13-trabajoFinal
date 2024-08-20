@@ -22,3 +22,12 @@ textarea{
 .a-color {
     color: white;
 }
+
+.sliderImg{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.filterImgSlider{
+    filter: grayscale(0.4);
+}
