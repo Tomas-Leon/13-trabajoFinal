@@ -31,3 +31,19 @@ textarea{
 .filterImgSlider{
     filter: grayscale(0.4);
 }
+
+.grillaCategoria{
+    width: 150px;
+    height: 150px;
+}
+
+.imgGrilla{
+   padding: 15px 50px;
+    width: 100%; 
+    height: 200px;
+    
+}
+.imgBanner{
+    width: 100%;
+    height: 350px;
+}
