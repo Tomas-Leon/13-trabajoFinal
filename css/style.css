@@ -32,6 +32,7 @@ textarea{
     filter: grayscale(0.4);
 }
 
+
 .team .card-body i{
     font-size: 20px;
 }
@@ -41,3 +42,32 @@ textarea{
 .team .card{
     box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
 }
+
+.grillaCategoria{
+    width: 150px;
+    height: 150px;
+}
+
+.imgGrilla{
+   padding: 15px 50px;
+    width: 100%; 
+    height: 200px;
+    
+}
+.imgBanner{
+    width: 100%;
+    height: 350px;
+}
+.imgDetalles{
+    padding: 15px 50px;
+     width: 100%; 
+     height: 500px;   
+ }
+
+ .imgDetalles2{
+    padding: 15px 50px;
+     width: 250px; 
+     height: 200px;
+     object-fit: cover;
+ }
+
