@@ -75,3 +75,14 @@ textarea{
     max-width: 80vh;
  }
 
+.boxPubli {
+    height: 200px;
+    width: auto;
+    overflow: hidden;
+}
+
+.boxPubli img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
