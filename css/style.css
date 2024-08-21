@@ -71,3 +71,7 @@ textarea{
      object-fit: cover;
  }
 
+ .box404 {
+    max-width: 80vh;
+ }
+
